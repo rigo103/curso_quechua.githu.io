@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+siat.impuestos.gob.bo	TRUE	/consulta	FALSE	1999999999	route	1702990008.169.310.594252|9d45c3dc97e12ba2637313bc329d3d6d
+siat.impuestos.gob.bo	TRUE	/	FALSE	1999999999	route	1702990008.545.307.838476|626ebd6be0fe1fcb96ca4fdf78fe81c7
+siat.impuestos.gob.bo	TRUE	/	FALSE	1999999999	JSESSIONID	42648B7351DACD1D0252FE3F3EFA7B60
+

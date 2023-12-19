@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 19 Dec 2023 08:46:42 at https://siat.impuestos.gob.bo/consulta/QR?nit=168094024&cuf=B805FAC6C334E214D37AF21C3AB85F0EE2996F9C230A09849C710E74&numero=4694&t=1 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://siat.impuestos.gob.bo/consulta/QR?nit=168094024&cuf=B805FAC6C334E214D37AF21C3AB85F0EE2996F9C230A09849C710E74&numero=4694&t=1 -O1 "C:\Users\rigo\Downloads\quechua\curso_quechua" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:47:26	Warning: 	Moved Temporarily for https://siat.impuestos.gob.bo/consulta/
+08:47:26	Warning: 	File has moved from https://siat.impuestos.gob.bo/consulta/ to /consulta/index.xhtml
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.eot (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.eot? (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.woff2 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.woff (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.ttf (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/fonts/glyphicons-halflings-regular.svg (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin)
+08:47:27	Error: 	"Bad Request" (400) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fa/fontawesome-webfont.eot.xhtml?ln=primefaces&v=6.1&#iefix&v=4.7.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&v=6.1)
+08:47:28	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fonts/ionicons.eot?v=2.0.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/css/ionicons.min.css.xhtml?ln=common)
+08:47:28	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fonts/ionicons.ttf?v=2.0.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/css/ionicons.min.css.xhtml?ln=common)
+08:47:28	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fonts/ionicons.woff?v=2.0.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/css/ionicons.min.css.xhtml?ln=common)
+08:47:28	Error: 	"Not Found" (404) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/fonts/ionicons.svg?v=2.0.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/css/ionicons.min.css.xhtml?ln=common)
+08:47:28	Error: 	"Bad Request" (400) at link https://siat.impuestos.gob.bo/consulta/javax.faces.resource/font-awesome/4.7.0/fonts/fontawesome-webfont.eot.xhtml?ln=webjars&#iefix&v=4.7.0 (from https://siat.impuestos.gob.bo/consulta/javax.faces.resource/font-awesome/4.7.0/css/font-awesome-jsf.css.xhtml?ln=webjars)
+
+HTTrack Website Copier/3.49-2 mirror complete in 46 seconds : 198 links scanned, 184 files written (11947552 bytes overall) [12249260 bytes received at 266288 bytes/sec], 66.6 requests per connection
+(12 errors, 2 warnings, 0 messages)
