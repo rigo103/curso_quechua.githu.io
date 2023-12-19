@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2">
+        	<meta http-equiv="Expires" content="0" />
+        	<meta http-equiv="Pragma" content="no-cache" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/theme.css.xhtml?ln=primefaces-admin" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=6.1" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/css/showcase2.css.xhtml?ln=common" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/css/navbar.css.xhtml?ln=common" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/css/ionicons.min.css.xhtml?ln=common" /><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/font-awesome/4.7.0/css/font-awesome-jsf.css.xhtml?ln=webjars" /><script type="text/javascript" src="/consulta/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/consulta/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/consulta/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=6.1"></script><link type="text/css" rel="stylesheet" href="/consulta/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=6.1" /><script type="text/javascript" src="/consulta/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/consulta/javax.faces.resource/idlemonitor/idlemonitor.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/consulta/javax.faces.resource/js/toastr.min.js.xhtml?ln=common"></script><script type="text/javascript" src="/consulta/javax.faces.resource/js/showcase.js.xhtml?ln=common"></script><script type="text/javascript" src="/consulta/javax.faces.resource/bootstrap.min.js.xhtml?ln=js"></script><script type="text/javascript" src="/consulta/javax.faces.resource/admin-lte.min.js.xhtml?ln=js"></script><script type="text/javascript" src="/consulta/javax.faces.resource/admintemplate.js.xhtml?ln=js"></script><script type="text/javascript" src="/consulta/javax.faces.resource/slideout.min.js.xhtml?ln=js"></script><script type="text/javascript" src="/consulta/javax.faces.resource/adminslide.js.xhtml?ln=js"></script><script type="text/javascript" src="/consulta/javax.faces.resource/validation/validation.js.xhtml?ln=primefaces&amp;v=6.1"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en';PrimeFaces.settings.validateEmptyFields=false;PrimeFaces.settings.considerEmptyStringNull=true;PrimeFaces.settings.projectStage='Development';}</script>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <script type="text/javascript">
+           PrimeFaces.locales['es'] = {closeText: 'Cerrar',prevText: 'Anterior',nextText: 'Siguiente',monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],dayNamesMin: ['D', 'L', 'M', 'Mi', 'J', 'V', 'S'],weekHeader: 'Semana',firstDay: 1,isRTL: false,showMonthAfterYear: false,yearSuffix: '',timeOnlyTitle: 'Sólo hora',timeText: 'Tiempo',hourText: 'Hora',minuteText: 'Minuto',secondText: 'Segundo',currentText: 'Fecha actual',ampm: false,month: 'Mes',week: 'Semana',day: 'Día',allDayText: 'Todo el día'};
+        </script>        
+        <link rel="shortcut icon" type="image/x-icon" href="/consulta/javax.faces.resource/common/images/favicon.ico.xhtml" />
+        <title>SIAT</title>
+        <script type="application/javascript">
+			function handleMsg(msg){
+				alert(msg);
+			}
+			history.pushState(null, null, location.href);
+		    window.onpopstate = function () {
+		        history.go(1);
+		    };
+		</script><script type="text/javascript" src="/consulta/javax.faces.resource/js/cookie.js.xhtml?ln=common"></script></head><body class="skin-blue sidebar-mini "><div id="j_idt12"></div><script id="j_idt12_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt12",{id:"j_idt12",start:function(){showBar();},success:function(){hideBar();}});});</script><div id="j_idt13" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" style="z-index: 9999!important;position: fixed"><div class="ui-dialog-content ui-widget-content"><img id="j_idt14" src="/consulta/javax.faces.resource/ajaxloadingbar.gif.xhtml?ln=images" alt="" /></div></div><script id="j_idt13_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","statusDialog",{id:"j_idt13",draggable:false,resizable:false,modal:true,responsive:true});});</script>
+
+        <div class="wrapper">
+            <div id="loader" class="load-bar" style="display: none">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <header class="main-header">
+                <a href="/consulta/" class="logo">
+                    <span class="logo-mini"><img src="/consulta/javax.faces.resource/images/LOGO-SIAT-MIN.png.xhtml?ln=common" />
+                    </span>
+                    <span class="logo-lg">
+                    </span>
+                    <span class="logo-lg"><img src="/consulta/javax.faces.resource/images/LOGO-SIAT.png.xhtml?ln=common" />
+                    </span>
+                </a>
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only"></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+
+	<style type="text/css">
+		#layout-menu_menu {
+			z-index: 9997 !important;
+		}
+		
+		#layout-menu_menu span.ui-menuitem-text {
+			margin-left: 2px;
+		}
+		
+		.button-link {
+			padding: 10px 15px;
+			background: #3c8dbc;
+			color: #ffffff;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			border: solid 1px #20538D;
+			text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+			-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px
+				rgba(0, 0, 0, 0.2);
+			-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px
+				rgba(0, 0, 0, 0.2);
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px
+				rgba(0, 0, 0, 0.2);
+			-webkit-transition-duration: 0.2s;
+			-moz-transition-duration: 0.2s;
+			transition-duration: 0.2s;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+		
+		.button-link:hover {
+			background: #367fa9;
+			border: solid 1px #2A4E77;
+			text-decoration: none;
+		}
+		
+		.button-link:active {
+			-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+			-moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+			box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+			background: #2E5481;
+			border: solid 1px #203E5F;
+		}
+		
+		.radio-inline label {
+			padding-left: 10px;
+			...
+		}
+		
+		.col_center {
+		     text-align: center;
+		}
+		
+		.panel_avatar{
+		 	text-align: center;
+	     	width:90%;
+	     	margin:0px auto;
+	     	color:white;
+		}
+	</style><div id="mensajesContainer" class="navbar-custom-menu">
+<form id="formIdle" name="formIdle" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formIdle" value="formIdle" />
+<script id="formIdle:j_idt22_s" type="text/javascript">$(function(){PrimeFaces.cw("IdleMonitor","widget_formIdle_j_idt22",{id:"formIdle:j_idt22",timeout:900000,onidle:function(){console.log('idle: '+(new Date()))},onactive:function(){console.log('active: '+(new Date()))},behaviors:{active:function(ext,event) {PrimeFaces.ab({s:"formIdle:j_idt22",e:"active",p:"formIdle:j_idt22"},ext);},idle:function(ext,event) {PrimeFaces.ab({s:"formIdle:j_idt22",e:"idle",p:"formIdle:j_idt22"},ext);}}});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form>
+		<ul class="nav navbar-nav">
+			<li class="dropdown user user-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><img id="j_idt90" src="/consulta/javax.faces.resource/dynamiccontent.properties.xhtml?ln=primefaces&amp;v=6.1&amp;pfdrid=b817c2c8aa3e600673d6c8339d09fb5c&amp;pfdrt=sc&amp;usuarioId=0&amp;pfdrid_c=true" alt="" width="25" height="25" />				
+				<span class="hidden-xs"><span class="fuente" style="font-weight: 500;color: #FFF;">visitante</span>
+			   </span>
+			</a>
+				<ul class="dropdown-menu">
+					<li class="user-header">
+						<div class="hidden-xs"><img id="j_idt95" src="/consulta/javax.faces.resource/dynamiccontent.properties.xhtml?ln=primefaces&amp;v=6.1&amp;pfdrid=b817c2c8aa3e600673d6c8339d09fb5c&amp;pfdrt=sc&amp;usuarioId=0&amp;pfdrid_c=true" alt="" width="90" height="90" />
+						</div>
+						<p><table class="panel_avatar">
+<tbody>
+<tr>
+<td class="col_center">
+								<small style="font-size:14px"></td>
+</tr>
+<tr>
+<td class="col_center"></small>
+								<small style="font-size:13px"></td>
+</tr>
+<tr>
+<td class="col_center"><span style="font-size=15px"></span></td>
+</tr>
+<tr>
+<td class="col_center"></small>
+								<small style="font-size:13px"></td>
+</tr>
+<tr>
+<td class="col_center"><span style="font-size=15px"></span></td>
+</tr>
+<tr>
+<td class="col_center"></small></td>
+</tr>
+</tbody>
+</table>
+
+						</p> 
+						
+
+
+
+
+
+
+					</li>
+					<li class="user-footer">
+<form id="j_idt109" name="j_idt109" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt109" value="j_idt109" />
+
+							<div class="pull-left">
+							</div>
+							<div class="pull-right"><button id="btn" name="btn" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-sm btn-primary" onclick="PrimeFaces.bcn(this,event,[function(event){PF('dlgLogout').show(); return false;},function(event){PrimeFaces.ab({s:&quot;btn&quot;});return false;}]);" type="submit"><span class="ui-button-text ui-c"></span></button><script id="btn_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_btn",{id:"btn"});</script>
+							</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:1" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form></li>
+				</ul></li>
+		</ul></div>
+<form id="formDialog" name="formDialog" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formDialog" value="formDialog" />
+<div id="formDialog:dlgLogout" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="formDialog:dlgLogout_title" class="ui-dialog-title">Cerrar sesión</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"><table id="formDialog:datosGrid" class="ui-panelgrid ui-widget no-border ui-fluid" role="grid"><tbody><label id="formDialog:j_idt115" class="ui-outputlabel ui-widget">Esta seguro de salir del sistema SIAT?</label></tbody></table><hr id="formDialog:j_idt116" class="ui-separator ui-state-default ui-corner-all" />
+			<div align="right"><button id="formDialog:j_idt118" name="formDialog:j_idt118" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-primary" onclick="PrimeFaces.ab({s:&quot;formDialog:j_idt118&quot;,p:&quot;formDialog:j_idt118&quot;,onco:function(xhr,status,args){PF('dlgLogout').hide();;}});return false;" type="submit"><span class="ui-button-text ui-c">Salir</span></button><script id="formDialog:j_idt118_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formDialog_j_idt118",{id:"formDialog:j_idt118"});</script><button id="formDialog:j_idt119" name="formDialog:j_idt119" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('dlgLogout').hide();" type="button"><span class="ui-button-text ui-c">Cancelar</span></button><script id="formDialog:j_idt119_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_formDialog_j_idt119",{id:"formDialog:j_idt119"});</script>
+			</div></div></div><script id="formDialog:dlgLogout_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","dlgLogout",{id:"formDialog:dlgLogout",resizable:false,modal:true,appendTo:"@(body)",position:"center center"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form><span id="j_idt121" class="ui-growl-pl" data-widget="growl" data-summary="data-summary" data-detail="data-detail" data-severity="all,error" data-redisplay="true"></span><script id="j_idt121_s" type="text/javascript">$(function(){PrimeFaces.cw('Growl','growl',{id:'j_idt121',sticky:false,life:6000,escape:true,msgs:[]});});</script>
+<form id="j_idt122" name="j_idt122" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt122" value="j_idt122" />
+<div id="j_idt122:j_idt123" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top"><span id="j_idt122:j_idt123_title" class="ui-dialog-title">Perfil de usuario</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all" aria-label="Close"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content"><div id="j_idt122:perfilUsuario" class="ui-panel ui-widget ui-widget-content ui-corner-all box-info" data-widget="widget_j_idt122_perfilUsuario"><div id="j_idt122:perfilUsuario_content" class="ui-panel-content ui-widget-content">
+			<div class="box-header with-border">
+				<h4 class="box-title">Datos para el usuario: visitante
+				</h4>
+			</div>
+			<div class="box-body">
+				<div class="ui-g ui-fluid">
+					<div class="ui-g-12 ui-sm-12">
+					
+						<div class="ui-g-4"><label id="j_idt122:j_idt127" class="ui-outputlabel ui-widget" for="j_idt122:nombreCompleto">Nombre:</label>
+						</div>
+						<div class="ui-g-8"><span id="j_idt122:nombreCompleto"></span>
+						</div>
+						
+						<div class="ui-g-4"><label id="j_idt122:j_idt130" class="ui-outputlabel ui-widget" for="j_idt122:numeroDocumento">Numero Documento:</label>
+						</div>
+						<div class="ui-g-8"><span id="j_idt122:numeroDocumento"></span>
+						</div>
+						
+						<div class="ui-g-4"><label id="j_idt122:j_idt133" class="ui-outputlabel ui-widget" for="j_idt122:correo">Correo electrónico:</label>
+						</div>
+						<div class="ui-g-8"><span id="j_idt122:correo"></span>
+						</div>
+
+						<div class="ui-g-4"><label id="j_idt122:j_idt136" class="ui-outputlabel ui-widget" for="j_idt122:dependencia">Dependencia:</label>
+						</div>
+						<div class="ui-g-8"><span id="j_idt122:dependencia"></span>
+						</div>
+					</div>
+				</div>
+			</div></div></div><script id="j_idt122:perfilUsuario_s" type="text/javascript">PrimeFaces.cw("Panel","widget_j_idt122_perfilUsuario",{id:"j_idt122:perfilUsuario"});</script>
+		<br />
+
+		
+		<div class="modal-footer"><button id="j_idt122:btnCerrar" name="j_idt122:btnCerrar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PF('dlg2').hide();" type="button"><span class="ui-button-text ui-c">Cerrar</span></button><script id="j_idt122:btnCerrar_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_j_idt122_btnCerrar",{id:"j_idt122:btnCerrar"});</script>
+		</div></div></div><script id="j_idt122:j_idt123_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","dlg2",{id:"j_idt122:j_idt123",resizable:false,modal:true,width:"50%",appendTo:"@(body)",position:"center center"});});</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:3" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form>
+                    </div>
+                </nav>
+            </header>
+
+            
+            <aside id="sidebar" class="main-sidebar slideout-menu">
+                <div>
+                    <section class="sidebar">
+
+	<style type="text/css">
+li.header {
+	color: #003256 !important;
+	font-weight: bold !important;
+	background: #c6cbd5;
+}
+</style>
+<form id="j_idt154" name="j_idt154" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt154" value="j_idt154" />
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:4" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form>
+                    </section>
+                </div>
+            </aside>
+            
+            <div id="content" class="content-wrapper">
+                <section class="content-header">
+                    <h1>
+      No encontrado
+    
+                        <small></small>
+                    </h1>
+                </section>
+                <section class="content">
+                        <div class="row">
+                            <div class="col-sm-12"><div id="messages" class="ui-messages ui-widget" aria-live="polite" data-global="true" data-summary="data-summary" data-detail="data-detail" data-severity="error,fatal" data-redisplay="true"></div><div id="info-messages" class="ui-messages ui-widget" aria-live="polite" data-global="false" data-summary="data-summary" data-detail="data-detail" data-severity="info,warn" data-redisplay="true"></div><script id="j_idt197_s" type="text/javascript">$(function(){PrimeFaces.cw("Tooltip","widget_j_idt197",{id:"j_idt197",showEffect:"fade",hideEffect:"fade"});});</script> 
+                            </div>
+                        </div>
+
+		<div class="box box-solid box-primary">
+			<div class="box-header">
+				<h3 class="box-title">Pagina inexistente</h3>
+			</div>
+			
+			<div class="box-body">La pagina solicitada no existe o no se encuentra disponible, por favor verifique o contactese con el administrador...
+			</div>
+			
+		</div>
+                </section>
+        <section class="content" id="contenido">
+        </section>
+            </div>
+
+
+            <footer class="main-footer">
+        <a target="_blank" href="http://www.impuestos.gob.bo/">
+            Copyright (C)  2023 - Servicio de Impuestos Nacionales
+        </a>
+        <div class="pull-right hidden-xs" style="color: gray">
+            <i>v1.0</i>
+        </div>
+            </footer>
+<form id="j_idt214" name="j_idt214" method="post" action="/consulta/404.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt214" value="j_idt214" />
+<script id="j_idt214:j_idt215" type="text/javascript">clearBreadCrumbs = function() {PrimeFaces.ab({s:"j_idt214:j_idt215",f:"j_idt214",p:"j_idt214:j_idt215",u:"@(.breadcrumb)",g:false,ps:true,pa:arguments[0]});}</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:5" value="-1603249668188608240:-7830415352538336628" autocomplete="off" />
+</form>
+            <div id="scrollTop" class="ripplelink" style="display:none;position: fixed; bottom: 10px; right: 20px; width: 34px; height: 34px; color: rgb(238, 238, 238); line-height: 34px; text-align: center; background-color: rgb(34, 45, 50); cursor: pointer; border-radius: 50%; z-index: 99999; opacity: 0.7;" onclick="window.scrollTo(0,0)">
+                <i class="fa fa-chevron-up" style="position:relative;top: -2px"></i>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            if (isMobile()) {
+                window.onscroll = activateScrollToTop;
+            }
+        </script>
+            <script type="text/javascript">
+                /*<![CDATA[*/
+
+                if (false) {
+                    ripple();
+                } else if (isMobile()) {
+                    ripple();
+                }
+
+                function ripple() {
+                    var rippleElements = '';
+
+                    $(function () {
+                        $(document.body).off('mousedown.ripple', rippleElements)
+                            .on('mousedown.ripple', rippleElements, null, function (e) {
+                                var element = $(this);
+                                $(".ripple").remove();
+                                var posX = element.offset().left,
+                                    posY = element.offset().top,
+                                    width = element.outerWidth(),
+                                    height = element.outerHeight();
+
+                                element.prepend("<span class='ripple'></span>");
+
+
+                                if (width >= height) {
+                                    height = width;
+                                } else {
+                                    width = height;
+                                }
+                                var x = e.pageX - posX - width / 2;
+                                var y = e.pageY - posY - height / 2;
+
+                                $(".ripple").css({
+                                    width: width,
+                                    height: height,
+                                    top: y + 'px',
+                                    left: x + 'px'
+                                }).addClass("rippleEffect");
+                            });
+                    });
+                }
+                /* ]]>*/
+            </script></body>
+</html>
